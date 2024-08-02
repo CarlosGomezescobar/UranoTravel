@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        secondary: "#727C73",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        banner: "url('/images/Avion2.jpg')",
+      },
+      boxShadow: {
+        light: "0px 4px 30px rgba(0, 0, 0, 0.08)",
       },
     },
   },
