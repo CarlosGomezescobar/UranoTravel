@@ -1,3 +1,5 @@
+import { FloatedSearch } from "../FloatedSearch";
+
 export function Banner() {
     return (
        <div className="container relative mx-auto">
@@ -5,6 +7,8 @@ export function Banner() {
            <div className="max-w-3xl text-center text-white">
              <h2 className="text-5xl font-extrabold text-black">Descubre Nuevos Horizontes Con Nuestra <span className="text-green-800 text-5xl bg-yellow-400 rounded">Agencia De Viajes</span></h2>
              <p className="mt-2 text-xl md:mt-8 text-black font-extrabold">Puedes Obtener Viajes Gratis o a Bajo Costo del Mercado, Tickets NFT y mas  </p>
+
+             <FloatedSearch />
            </div>
           </div>
        </div>

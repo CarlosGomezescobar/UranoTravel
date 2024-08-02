@@ -10,6 +10,7 @@ import { client } from "../../client";
 import { TransitionPage } from "@/components/TransitionPage.tsx";
 import { Header1 } from "@/components/Header/Header1";
 import { Banner } from "@/components/Banner";
+import { FloatedSearch } from "@/components/FloatedSearch";
 
 
 export default function Home() {
@@ -22,7 +23,8 @@ export default function Home() {
       <main className="">
         <div className="">
         <Banner />
-          <ThirdwebResources />
+        <FloatedSearch />
+        
         </div>
       </main>
     </ThirdwebProvider>
