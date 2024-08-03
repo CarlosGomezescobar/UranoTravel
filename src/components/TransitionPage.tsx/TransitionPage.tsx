@@ -12,7 +12,7 @@ export function TransitionPage() {
   exit="exit"
   transition={{ delay: 0.4, duration: 0.4, ease: "easeInOut"}}
   style={{
-    backgroundImage: 'url("/logo/logo13.jpeg")',
+    backgroundImage: 'url("/logo/logo-spiner.gif")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }}
